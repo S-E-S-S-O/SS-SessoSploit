@@ -15,7 +15,9 @@ Here is the list of commands contained so far in the sessosploit:
 To start the sessosploit, use this commands:
 
 `git clone https://github.com/S-E-S-S-O/SS-SessoSploit` _clone the repo with git_
+
 `cd SS-SessoSploit` _navigate in to the folder_
+
 `python3 main.py` _start the main file_
 
 # HEY YO! DO YOU WANT TO CONTRIBUTE??
