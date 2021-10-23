@@ -24,6 +24,7 @@ To start the sessosploit, use this commands:
 For give our a hand, don't open a issue or a pull requests, just telegram!
 
 Takaso ==> @Takaso_NoGokui
+
 Lojacops ==> @Lojacops
 
 **Credits:**
