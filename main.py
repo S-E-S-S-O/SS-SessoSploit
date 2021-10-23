@@ -7,7 +7,6 @@ import nmap
 from extra.sha256encrypter import sha256
 from extra.reqinfo import op
 
-# Imports
 modules = ["asyncio", "discord", "requests", "json", "webbrowser", "nmap"]
 for library in modules:
     try:
