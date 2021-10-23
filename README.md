@@ -21,7 +21,7 @@ To start and download the SS | S.E.S.S.O-Sploit, use these commands:
 
 `cd SS-SessoSploit` _Navigate in to the folder._
 
-`python3 main.py` _Start the main file (Missing libraries will be installed automatecly)._
+`python3 main.py` _Start the main file (Missing libraries will be installed automatically)._
 
 # DO YOU WANT TO CONTRIBUTE?
 To give us an hand, don't open a issue or a pull requests, just DM us on telegram (We will ignore useless messages)
