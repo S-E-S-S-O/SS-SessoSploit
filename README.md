@@ -1,7 +1,7 @@
 # SS-SessoSploit
 
 So, **what is the SESSOsploit?**
-The SESSOsploit is a multi-tool op made with python3 that has various commands, designed for sex soldiers, all still in development!
+The SESSOsploit is a multi-tool op made with python3 that has various commands, designed for the S.E.S.S.O. soldiers, all still in development!
 
 Here is the list of commands contained so far in the sessosploit:
 1) repl || Searches anything on replit
