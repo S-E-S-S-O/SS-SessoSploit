@@ -11,7 +11,7 @@ Here is the list of commands contained so far in the SS | S.E.S.S.O-Sploit:
 4) base64 || Encodes and decodes in base64
 5) reqinfo || Gets the info about a request
 
-[Extra] You can also use all the normal shell commands.
+[Extra] You can also use all the standard shell commands.
 
 # Getting started
 
