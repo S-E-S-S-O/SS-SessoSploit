@@ -3,15 +3,14 @@ import threading
 import time
 import sys
 import base64
-import nmap
 from extra.sha256encrypter import sha256
 from extra.reqinfo import op
+
 
 modules = ["asyncio", "discord", "requests", "json", "webbrowser", "nmap"]
 for library in modules:
     try:
         import asyncio, discord, requests, json, proxygen, webbrowser
-        import nmap
         from colors import *
         from itertools import cycle
         from datetime import datetime
