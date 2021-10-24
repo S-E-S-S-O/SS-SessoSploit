@@ -6,7 +6,7 @@ import sys
 import base64
 from extra.sha256encrypter import sha256
 from extra.reqinfo import op
-
+from extra.httpgoc import serop
 
 modules = ["asyncio", "discord", "requests", "json", "webbrowser", "nmap"]
 for library in modules:
@@ -27,39 +27,6 @@ class cmds():
             print("\nInput something.")
         else:
             webbrowser.open(f"https://www.google.com/search?q={argument}+site%3Areplit.com&oq=sesso+site%3Areplit.com&aqs=chrome..69i57.6712j0j7&sourceid=chrome&ie=UTF-8")
-    def http_server():
-        port = input("Please tell the port you want to listen on \n")
-        port = int(port)
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-        server_address = ("localhost", port)
-        print("Server started")
-        sock.bind(server_address)
-
-        sock.listen(1)
-
-        while True :
-            print ("Waiting for a connection")
-            connection, client_address = sock.accept()
-                try:
-                    client_address = str(client_address)
-                    print("We got a connection from" + client_address)
-
-                    while True:
-                        data = connection.recv(16)
-                        data = str(data)
-                        print ("received \n "+ data)
-                        if data:
-                            print ("sending data back to the client")
-                            connection.send(b'Hello Client !!')
-                        else:
-                            print("no more data from" + client_address)
-                            break
-                
-                finally:
-                    # Closing the connection
-                    #connection.close()
-                print("Done")
     def b64(argument = None):
         if argument == None:
             print("\nInput something.")
@@ -121,7 +88,7 @@ class SS():
             elif opt == "sha256":
                 sha256()
             elif opt == "http":
-                cmds.http_server()
+                serop()
             elif opt.startswith("base64"):
                 base64_arg = opt.replace("base64", "")
                 cmds.b64(base64_arg)
