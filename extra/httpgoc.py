@@ -35,7 +35,7 @@ def serop():
                     connection.send(b'Hello Client !!')
                 else:
                     print("no more data from" + client_address)
-                break
+                    break
                 
         finally:
         # Closing the connection
