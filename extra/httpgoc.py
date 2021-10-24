@@ -41,4 +41,3 @@ def serop():
         # Closing the connection
        #connection.close()
             print("Done")
-serop()
