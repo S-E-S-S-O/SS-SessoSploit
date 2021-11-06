@@ -6,7 +6,7 @@ import sys
 import base64
 from extra.sha256encrypter import sha256
 from extra.reqinfo import op
-from extra.httpgoc import serop
+from extra.httpgoc import run_http_server
 from extra.allahcattone import *
 
 modules = ["asyncio", "discord", "requests", "json", "webbrowser", "nmap"]
@@ -88,7 +88,7 @@ class SS():
             elif opt == "sha256":
                 sha256()
             elif opt == "http":
-                serop()
+                run_http_server()
             elif opt.startswith("base64"):
                 base64_arg = opt.replace("base64", "")
                 cmds.b64(base64_arg)
