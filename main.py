@@ -7,6 +7,7 @@ import base64
 from extra.sha256encrypter import sha256
 from extra.reqinfo import op
 from extra.httpgoc import serop
+from extra.allahcattone import *
 
 modules = ["asyncio", "discord", "requests", "json", "webbrowser", "nmap"]
 for library in modules:
@@ -54,6 +55,7 @@ class SS():
 3 - http [Start an HTTP server]
 4 - base64 [Encodes and decodes in base64]
 5 - reqinfo [Gets the info about a request]
+6 - allahcattone [Dorking + Dir Fuzzer tool]
 """
         print(a)
     def sesso():
@@ -73,10 +75,8 @@ class SS():
   `--'---'  |   :    |'--'.     /'--'.     /  `----'   `--'---'  |   | :   |  ,   /  `----'  ;  :    ;|  ,   /         
              \   \  /   `--'---'   `--'---'                      `---'.|    ---`-'           |  ,   /  ---`-'          
               `----'                                               `---`                      ---`-'                   
-
 %s                                                                                                                      
                                      [%s+%s] Made by %sLojacops%s and %sTakaso%s [%s+%s]
-
 """ % (green(), reset(), green(), reset(), cyan(), reset(), blue(), reset(), green(), reset()))
         while True:
             opt = input("""[ %s@sesso%s:%s~%s$ """ % (magenta(), reset(), blue(), reset()))
@@ -94,6 +94,8 @@ class SS():
                 cmds.b64(base64_arg)
             elif opt.startswith("reqinfo"):
                 op()
+            elif opt.startswith("allahcattone"):
+                main_catone()
             else:
                 os.system(opt)
             
