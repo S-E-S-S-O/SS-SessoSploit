@@ -90,4 +90,11 @@ def main_catone():
             print("sus.")
 
 if __name__ == "__main__":
-    main_catone()
+   main_catone()
+  
+# https://www.coursehero.com/file/p4ul60g/phpshowpage-galleryphpsivu-galleryphpsp-galleryphpstrona-galleryphpthispage/
+# https://www.coursehero.com/file/p4fbu90/phpcatid-shopcafe-shop-productphpbookId-shopbooksdetailphpbookID-indexphpcPath/
+# https://www.coursehero.com/file/64786100/CC-DORKStxt/
+
+# CC Google dorks
+  
