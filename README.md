@@ -29,7 +29,7 @@ To give us an hand, don't open a issue or a pull requests, just DM us on telegra
 
 Takaso ==> @Takaso_NoGokui
 
-Lojacops ==> @Lojacops
+Lojacops ==> @elbozoo
 
 **Credits:**
 
