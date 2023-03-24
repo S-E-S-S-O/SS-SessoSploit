@@ -9,7 +9,7 @@ from extra.reqinfo import op
 from extra.httpgoc import run_http_server
 from extra.allahcattone import *
 
-modules = ["asyncio", "discord", "requests", "json", "webbrowser", "nmap"]
+modules = ["asyncio", "discord", "requests", "json", "webbrowser", "nmap". "lxml"]
 for library in modules:
     try:
         import asyncio, discord, requests, json, proxygen, webbrowser
